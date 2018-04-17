@@ -16,12 +16,20 @@ public abstract class Stall implements IChargeable, IEnjoyable {
         return 20;
     }
 
+    public String getName() {
+        return this.name;
+    }
 
+    public String getOwner_name() {
+        return owner_name;
+    }
 
+    public int getParking_spot() {
+        return parking_spot;
+    }
 
-
-
-
-
-
+    public int getFunRating() {
+        return funRating;
+    }
 }
+
